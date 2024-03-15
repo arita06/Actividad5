@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="https://rmtorresv.files.wordpress.com/2010/05/foto-marcelo-torres-terno-azul-fondo-blanco.jpg" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Javier Arita</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>javierarita@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>(502) 505852822</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Desarrollador Web</h3>
+            <p>Empresa de tecnologías TECNOAPP - Ciudad de Guatemala, Guatemala | 03/10/2020 - 10/11/2022</p>
+            <ul>
+                <li>Codificación, prueba y depuración de software utilizando las mejores prácticas de desarrollo.
+                    Participación en reuniones de planificación y revisión de código para garantizar la coherencia y la alineación con los requisitos del proyecto.
+                    Mantenimiento de la documentación técnica y el seguimiento de versiones del software.
+                    Permanecer actualizado sobre las tendencias y tecnologías emergentes en el campo de la programación para contribuir a la innovación continua de la empresa.</li>
+                <br>
+                <li>Desarrollo y mantenimiento de aplicaciones web y móviles, optimizando la eficiencia y la usabilidad del software.
+                    Implementación de soluciones técnicas innovadoras que mejoraron significativamente la experiencia del usuario y la escalabilidad del producto.
+                    Colaboración efectiva con equipos multidisciplinarios para cumplir con los plazos de entrega y superar los objetivos del proyecto.
+                    Identificación y resolución proactiva de problemas de código y rendimiento, asegurando la calidad del software y la satisfacción del cliente.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Profesor de programación</h3>
+            <p>Colegio Valle Rojo - Ciudad de Guatemala, Guatemala | 10/11/2022 - Actualidad</p>
+            <ul>
+                <li>mpartir clases de programación a estudiantes de diferentes niveles, adaptando el contenido y la metodología según las necesidades y habilidades de los alumnos.
+                    Preparar materiales didácticos y actividades prácticas para facilitar el aprendizaje de conceptos fundamentales de programación.
+                    Evaluar el progreso de los estudiantes mediante pruebas, proyectos y ejercicios prácticos, proporcionando retroalimentación constructiva para su desarrollo.</li>
+                    <br>
+                <li>Fomentar un ambiente de aprendizaje colaborativo y motivador, estimulando la creatividad y el pensamiento crítico en el proceso de resolución de problemas.
+                    Mantenerse actualizado sobre las nuevas tecnologías y tendencias en el campo de la programación, integrando dichos conocimientos en el plan de estudios para enriquecer la experiencia educativa de los estudiantes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Estudiante Universitario</h3>
+            <p>Universidad Galileo - Ciudad de Guatemala, Guatemala | 20/10/2020 - 20/11/2022</p>
+            <p>60 cursos aprovados.</p>
+        </div>
+    </section>
+</body>
+</html>
